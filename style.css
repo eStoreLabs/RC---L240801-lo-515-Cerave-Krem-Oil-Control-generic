@@ -919,10 +919,12 @@
   #es-cerave.es-cerave .es-feature__text--1 {
     text-align: right;
     min-width: 400px;
+    padding-left: 20px;
   }
 
   #es-cerave.es-cerave .es-feature__text--2 {
     text-align: left;
+    padding-right: 20px;
   }
 
   #es-cerave.es-cerave .es-feature__img--mobile {
