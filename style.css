@@ -172,7 +172,7 @@
 }
 
 #es-cerave.es-cerave .es-features__icon:hover {
-  transform: scale(1.2);
+  transform: scale(1.3);
 }
 
 #es-cerave.es-cerave .es-features__text {
@@ -192,6 +192,20 @@
 #es-cerave.es-cerave .es-feature {
   position: relative;
   padding-bottom: 60px;
+}
+
+#es-cerave.es-cerave .es-feature__text--1 {
+  text-align: center;
+  min-height: 60px;
+  min-width: 100%;
+  padding-left: 20px;
+}
+
+#es-cerave.es-cerave .es-feature__text--2 {
+  text-align: center;
+  min-height: 60px;
+  min-width: 100%;
+  padding-right: 20px;
 }
 
 #es-cerave.es-cerave .es-ingr__photo--mobile {
@@ -256,12 +270,12 @@
 
 #es-cerave.es-cerave .es-feature__left {
   text-align: center;
-  max-width: 45%;
+  max-width: 100%;
 }
 
 #es-cerave.es-cerave .es-feature__right {
   text-align: center;
-  max-width: 45%;
+  max-width: 100%;
 }
 
 #es-cerave.es-cerave .es-feature__research {
@@ -309,12 +323,15 @@
   background-color: #103351;
 }
 
-#es-cerave.es-cerave .es-benefits__ceramid {
+#es-cerave.es-cerave .es-benefits__img {
+  max-height: 446px;
+  display: block;
+  transition: all 0.3s;
   background-color: #0072ce;
 }
 
-#es-cerave.es-cerave .es-benefits__img {
-  max-height: 444px;
+#es-cerave.es-cerave .es-benefits__img--1 {
+  max-height: 446px;
   display: block;
   transition: all 0.3s;
 }
@@ -323,25 +340,6 @@
   overflow: hidden;
 }
 
-#es-cerave.es-cerave .es-benefits__solve:hover .es-benefits__img {
-  transform: scale(1.05);
-}
-
-#es-cerave.es-cerave .es-benefits__solve--1:hover .es-benefits__img {
-  transform: scale(1.1);
-}
-
-#es-cerave.es-cerave .es-benefits__problem:hover .es-benefits__img {
-  transform: scale(1.05);
-}
-
-#es-cerave.es-cerave .es-benefits__ceramid:hover .es-benefits__img {
-  transform: scale(1.05);
-}
-
-#es-cerave.es-cerave .es-benefits__mve:hover .es-benefits__img {
-  transform: scale(1.1);
-}
 
 #es-cerave.es-cerave .es-benefits__title {
   margin: 0;
@@ -665,7 +663,7 @@
     flex-direction: row;
     color: white;
     justify-content: space-around;
-    align-items: center;
+    align-items: flex-start;
   }
 
   #es-cerave.es-cerave .es-feature__img--mobile {
@@ -773,7 +771,6 @@
   }
 
   #es-cerave.es-cerave .es-benefits__img--1 {
-    width: 20px;
     padding-top: 0;
     padding-bottom: 0;
     margin: 0 auto;
@@ -921,12 +918,15 @@
 
   #es-cerave.es-cerave .es-feature__text--1 {
     text-align: right;
-    min-width: 400px;
+    min-height: 10px;
+    min-width: 370px;
     padding-left: 20px;
   }
 
   #es-cerave.es-cerave .es-feature__text--2 {
     text-align: left;
+    max-width: 200px;
+    min-height: 10px;
     padding-right: 20px;
   }
 
@@ -953,7 +953,7 @@
   #es-cerave.es-cerave .es-feature__research {
     max-width: 100%;
     color: #fff;
-    min-height: 400px;
+    min-height: 370px;
     padding-left: 475px;
     padding-top: 100px;
   }
